@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuidando com Amor</title>
+    <link rel="stylesheet" href="./css/globalStyle.css">
+    <link rel="stylesheet" href="./css/headerCss.css">
+    <script src="./js/mobile.js"></script>
+</head>
+<body>
+    <header class="page-header">
+        <nav class="main-nav">
+            
+                <a class="logo active" href="index.html">
+                    <h2>Cuidando com Amor</h2>
+                </a>
+            <ul class="nav-links">
+                <li><a href="index.html"></a>Home</li>
+                <li><a href="caes.html">Cães</a></li>
+                <li><a href="gatos.html">Gatos</a></li>
+                <li><a href="aves.html">Aves</a></li>
+                <li><a href="roedores.html">Roedores</a></li>
+            </ul>
+            <div class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Cuidando com Amor</h1>
+        <h3>O site Cuidando com Amor tem como finalidade ser um "Guia de Cuidado com Animais de Estimação" dedicado a fornecer informações abrangentes sobre os cuidados necessários para diferentes espécies de animais de estimação.</h3>   
+        
+        <section class="grid-section">
+            <div>
+                <h2><a href="caes.html">Cães</a></h2>
+            </div>
+            <div>
+                <h2><a href="gatos.html">Gatos</a></h2>
+            </div>
+            <div>
+                <h2><a href="aves.html">Aves</a></h2>
+            </div>
+            <div>
+                <h2><a href="roedores.html">Roedores</a></h2>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div>
+            Contatos:
+            <ul>
+                <li>
+                    <p>(92)9 9139-2394</p>
+                </li>
+                <li>
+                    <p>(92)9 9139-2394</p>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+<script>
+    const navToggle = document.querySelector('.nav-toggle');
+    const navLinks = document.querySelector('.nav-links');
+
+    navToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+</script>
+</html>
